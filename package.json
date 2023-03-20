@@ -14,7 +14,7 @@
     "basedSwap",
     "ethereum"
   ],
-  "module": "dist/basedSwap-sdk.esm.js",
+  "module": "dist/basedswap-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
