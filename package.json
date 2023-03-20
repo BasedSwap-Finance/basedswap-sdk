@@ -2,7 +2,7 @@
   "name": "basedswap-sdk",
   "author": "basedswap",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🛠 An SDK for building applications on top of BasedSwap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
