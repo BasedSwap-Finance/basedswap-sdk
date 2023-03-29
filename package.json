@@ -2,19 +2,19 @@
   "name": "basedswap-sdk",
   "author": "basedswap",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "🛠 An SDK for building applications on top of BasedSwap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "git://github.com/BasedSwap-Finance/basedswap-sdk.git",
+  "repository": "https://github.com/BasedSwap-Finance/basedswap-sdk.git",
   "keywords": [
     "basedSwap",
     "ethereum"
   ],
-  "module": "dist/basedswap-sdk.esm.js",
+  "module": "dist/v2-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
@@ -32,8 +32,15 @@
   "devDependencies": {
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-core": "^1.0.0",
     "tsdx": "^0.14.1"
+  },
+  "peerDependencies": {
+    "@ethersproject/address": "^5.0.0-beta",
+    "@ethersproject/contracts": "^5.0.0-beta",
+    "@ethersproject/networks": "^5.0.0-beta",
+    "@ethersproject/providers": "^5.0.0-beta",
+    "@ethersproject/solidity": "^5.0.0-beta"
   },
   "engines": {
     "node": ">=10"
