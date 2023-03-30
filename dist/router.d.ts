@@ -1,5 +1,5 @@
 import { Currency, Percent, TradeType } from '@uniswap/sdk-core';
-import { Trade } from './entities';
+import { Trade } from 'entities';
 /**
  * Options for producing the arguments to send call to the router.
  */
