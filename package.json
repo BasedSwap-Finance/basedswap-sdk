@@ -1,19 +1,20 @@
 {
-  "name": "basedswap-sdk",
+  "name": "@basedswap/v2-sdk",
+  "author": "basedswap (https://github.com/BasedSwap-Finance)",
   "license": "MIT",
-  "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
+  "version": "3.0.1",
+  "description": "building applications on top of basedswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/BasedSwap-Finance/basedswap-sdk.git",
+  "repository": "https://github.com/BasedSwap-Finance/v2-sdk.git",
   "keywords": [
-    "uniswap",
+    "basedswap",
     "ethereum"
   ],
-  "module": "dist/basedswap-sdk.esm.js",
+  "module": "dist/v2-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
